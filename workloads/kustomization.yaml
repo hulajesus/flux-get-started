@@ -1,0 +1,11 @@
+commonLabels:
+  app: activities-dapp
+
+resources:
+- podinfo-dep.yaml
+
+namespace: biz
+
+imageTags:
+- name: registry.cn-hongkong.aliyuncs.com/imtoken/candy
+  newTag: dev

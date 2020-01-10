@@ -2,23 +2,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: podinfo
+  name: candy1
   namespace: biz
   labels:
-    app: podinfo
+    app: candy1
   annotations:
     fluxcd.io/automated: "true"
 spec:
   selector:
     matchLabels:
-      app: podinfo
+      app: candy1
   template:
     metadata:
       labels:
-        app: podinfo
+        app: candy1
     spec:
       containers:
-      - name: candy
+      - name: candy1
         image: registry.cn-hongkong.aliyuncs.com/imtoken/candy:master
         imagePullPolicy: Always
         readinessProbe:
