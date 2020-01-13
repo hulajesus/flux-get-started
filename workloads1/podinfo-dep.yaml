@@ -30,6 +30,6 @@ spec:
         - containerPort: 80
           protocol: TCP
       nodeSelector:
-        biz: "true"
+        kubernetes.io/hostname: dev-worker01
       imagePullSecrets:
       - name: image-registry-secret
