@@ -2,7 +2,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations: null
+  annotations:
+    fluxcd.io/automated: null
+    fluxcd.io/locked: "true"
+    fluxcd.io/locked_user: hulajesus <hulajesus@gmail.com>
   name: podinfo1
   namespace: biz
 spec:
