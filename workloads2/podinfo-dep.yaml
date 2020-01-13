@@ -1,0 +1,34 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: podinfo2
+  labels:
+    app: podinfo2
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  selector:
+    matchLabels:
+      app: podinfo2
+  template:
+    metadata:
+      labels:
+        app: podinfo2
+    spec:
+      containers:
+      - name: candy
+        image: registry.cn-hongkong.aliyuncs.com/imtoken/candy:latest
+        imagePullPolicy: Always
+        readinessProbe:
+          tcpSocket:
+            port: 80
+          initialDelaySeconds: 3
+          periodSeconds: 3
+        ports:
+        - containerPort: 80
+          protocol: TCP
+      nodeSelector:
+        kubernetes.io/hostname: dev-worker02
+      imagePullSecrets:
+      - name: image-registry-secret
