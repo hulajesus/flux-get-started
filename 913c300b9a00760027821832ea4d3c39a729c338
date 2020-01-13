@@ -1,0 +1,1 @@
+{"jobID":"c35be514-6780-6fe2-648d-a784d541bfe8","spec":{"type":"policy","cause":{"Message":"","User":"hulajesus \u003chulajesus@gmail.com\u003e"},"spec":{"biz:deployment/podinfo1":{"add":{"tag_all":"glob:master-*"},"remove":{}}}},"result":null}
