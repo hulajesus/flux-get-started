@@ -7,5 +7,5 @@ resources:
 namespace: biz
 
 imageTags:
-- name: registry.cn-hongkong.aliyuncs.com/imtoken/candy
+- name: registry.cn-hongkong.aliyuncs.com/imtoken/router
   newTag: dev
