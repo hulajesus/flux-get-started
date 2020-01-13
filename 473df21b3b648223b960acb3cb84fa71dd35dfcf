@@ -1,0 +1,1 @@
+{"jobID":"63880bb8-fa83-049e-c4c8-edcf5a8d55fb","spec":{"type":"policy","cause":{"Message":"","User":"hulajesus \u003chulajesus@gmail.com\u003e"},"spec":{"biz:deployment/podinfo1":{"add":{"locked":"true","locked_msg":"","locked_user":"hulajesus \u003chulajesus@gmail.com\u003e"},"remove":{}}}},"result":null}
