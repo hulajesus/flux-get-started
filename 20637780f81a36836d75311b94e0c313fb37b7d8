@@ -1,0 +1,1 @@
+{"jobID":"a646520f-439a-d82f-6c04-20452a6f403f","spec":{"type":"policy","cause":{"Message":"","User":"hulajesus \u003chulajesus@gmail.com\u003e"},"spec":{"biz:deployment/podinfo1":{"add":{"automated":"true"},"remove":{}}}},"result":null}
