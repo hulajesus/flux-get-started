@@ -10,5 +10,5 @@ spec:
       $setElementOrder/containers:
       - name: candy
       containers:
-      - image: registry.cn-hongkong.aliyuncs.com/imtoken/candy:pp
+      - image: registry.cn-hongkong.aliyuncs.com/imtoken/candy:k1
         name: candy
