@@ -1,0 +1,1 @@
+{"jobID":"ddd90ad1-275d-61ff-1084-47318acec00a","spec":{"type":"policy","cause":{"Message":"","User":"hulajesus \u003chulajesus@gmail.com\u003e"},"spec":{"biz:deployment/podinfo1":{"add":{},"remove":{"locked":"true","locked_msg":"true","locked_user":"true"}}}},"result":null}
