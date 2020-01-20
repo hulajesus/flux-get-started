@@ -4,8 +4,6 @@ kind: Deployment
 metadata:
   annotations:
     fluxcd.io/automated: null
-    fluxcd.io/locked: "true"
-    fluxcd.io/locked_user: hulajesus <hulajesus@gmail.com>
     fluxcd.io/tag.candy: glob:master-*
   name: podinfo1
   namespace: biz
