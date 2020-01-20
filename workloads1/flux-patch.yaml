@@ -3,7 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fluxcd.io/automated: null
     fluxcd.io/tag.candy: glob:master-*
   name: podinfo1
   namespace: biz
