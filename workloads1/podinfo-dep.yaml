@@ -6,8 +6,6 @@ metadata:
   namespace: biz
   labels:
     app: podinfo
-  annotations:
-    fluxcd.io/automated: "true"
 spec:
   selector:
     matchLabels:
